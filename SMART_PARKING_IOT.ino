@@ -4,13 +4,13 @@
 #include <WiFiUdp.h>
 #include "Adafruit_MQTT.h"
 #include "Adafruit_MQTT_Client.h"
-const char *ssid =  "A83";     // Enter your WiFi Name
-const char *pass =  "gocengdulu"; // Enter your WiFi Password
+const char *ssid =  "A83";     
+const char *pass =  "gocengdulu"; 
 
 #define MQTT_SERV "io.adafruit.com"
 #define MQTT_PORT 1883
 #define MQTT_NAME "triamelia"
-#define MQTT_PASS "aio_JYMs01O7Id6DpIhV59BfsBVMvMqL"
+#define MQTT_PASS "aio"
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "pool.ntp.org", 25200);
 Servo tap_servo;
